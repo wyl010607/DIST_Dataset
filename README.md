@@ -45,7 +45,7 @@ The data architecture of the dataset is detailed as follows:
 
 <img src="DIST.png" alt="DIST" width="75%"/>
 
-## 传感器变量描述列表
+## Sensor Variable Description List
 
 | **ID**   | **Description**                                              | **Type** |
 | -------- | ------------------------------------------------------------ | -------- |
