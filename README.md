@@ -48,44 +48,44 @@ The data architecture of the dataset is detailed as follows:
 ## Sensor Variable Description List
 
 | **ID**   | **Description**                                              | **Type** |
-| -------- | ------------------------------------------------------------ | -------- |
-| FIC05.PV | Pressure Tower T02 Reflux Flow                               | PV       |
-| FIC09.PV | Atmospheric Tower T03 Reflux Flow                            | PV       |
-| FIC11.PV | Flow of Methanol Pump Outlet after Pre-distillation Tower T01 | PV       |
-| LIC02.PV | Level in Reflux Slot V0703 of Pre-distillation Tower T01     | PV       |
-| LIC03.PV | Level in Pressure Tower T02                                  | PV       |
-| LIC04.PV | Level in Reflux Slot V0704 of Pressure Tower T02             | PV       |
-| LIC05.PV | Level in Atmospheric Tower T03                               | PV       |
-| LIC06.PV | Level in Reflux Slot V0706 of Atmospheric Tower T03          | PV       |
-| LIC12.PV | Level in Water Separator V0713 of Pre-distillation Tower T01 | PV       |
-| FIC05.OP | Reflux Flow Adjustment in Pressure Tower T02 Reflux Slot     | OP       |
-| FIC09.OP | Reflux Flow Adjustment in Atmospheric Tower T03 Reflux Slot  | OP       |
-| FIC11.OP | Level Adjustment in Pre-distillation Tower T01               | OP       |
-| LIC02.OP | Level Adjustment in Reflux Slot of Pre-distillation Tower T01 | OP       |
-| LIC03.OP | Level Adjustment in Pressure Tower T02                       | OP       |
-| LIC04.OP | Level Adjustment in Reflux Slot of Pressure Tower T02        | OP       |
-| LIC05.OP | Level Adjustment in Atmospheric Tower T03                    | OP       |
-| LIC06.OP | Level Adjustment in Reflux Slot of Atmospheric Tower T03     | OP       |
-| LIC12.OP | Level Adjustment in Water Separator of Pre-distillation Tower T01 | OP       |
-| TI36.PV  | Conversion Gas Temperature                                   | DV       |
-| TI38.PV  | Conversion Gas Temperature                                   | DV       |
-| PI03.PV  | Conversion Gas Pressure                                      | DV       |
-| FI01.PV  | Feed Flow in Pre-distillation Tower T01                      | DV       |
-| TI02.PV  | Feed Temperature in Pre-distillation Tower T01               | DV       |
-| TI03.PV  | Top Temperature in Pre-distillation Tower T01                | DV       |
-| FI03.PV  | Reflux Flow in Pre-distillation Tower T01                    | DV       |
-| PI01.PV  | Top Pressure in Pre-distillation Tower T01                   | DV       |
-| PI02.PV  | Kettle Pressure in Pre-distillation Tower T01                | DV       |
-| TI05.PV  | Sensitive Plate Temperature in Pre-distillation Tower T01    | DV       |
-| TI12.PV  | Top Temperature in Pressure Tower T02                        | DV       |
-| PI06.PV  | Top Pressure in Pressure Tower T02                           | DV       |
-| TI16.PV  | Sensitive Plate Temperature on Tower Plate in Pressure Tower T02 | DV       |
-| PI05.PV  | Kettle Pressure in Pressure Tower T02                        | DV       |
-| PI08.PV  | Top Pressure in Atmospheric Tower T03                        | DV       |
-| TI25.PV  | Sensitive Plate Temperature on Tower Plate in Atmospheric Tower T03 | DV       |
-| PI41.PV  | Measurement of Top Pressure in Atmospheric Tower T03         | DV       |
-| TI21.PV  | Top Temperature in Atmospheric Tower T03                     | DV       |
-| FI12.PV  | Conversion Gas Flow                                          | 5DV      |
+| -------- | ------------------------------------------------------------ | ------- |
+| FIC05.PV | Pressure Tower T02 Reflux Flow                               | PV      |
+| FIC09.PV | Atmospheric Tower T03 Reflux Flow                            | PV      |
+| FIC11.PV | Flow of Methanol Pump Outlet after Pre-distillation Tower T01 | PV      |
+| LIC02.PV | Level in Reflux Slot V0703 of Pre-distillation Tower T01     | PV      |
+| LIC03.PV | Level in Pressure Tower T02                                  | PV      |
+| LIC04.PV | Level in Reflux Slot V0704 of Pressure Tower T02             | PV      |
+| LIC05.PV | Level in Atmospheric Tower T03                               | PV      |
+| LIC06.PV | Level in Reflux Slot V0706 of Atmospheric Tower T03          | PV      |
+| LIC12.PV | Level in Water Separator V0713 of Pre-distillation Tower T01 | PV      |
+| FIC05.OP | Reflux Flow Adjustment in Pressure Tower T02 Reflux Slot     | OP      |
+| FIC09.OP | Reflux Flow Adjustment in Atmospheric Tower T03 Reflux Slot  | OP      |
+| FIC11.OP | Level Adjustment in Pre-distillation Tower T01               | OP      |
+| LIC02.OP | Level Adjustment in Reflux Slot of Pre-distillation Tower T01 | OP      |
+| LIC03.OP | Level Adjustment in Pressure Tower T02                       | OP      |
+| LIC04.OP | Level Adjustment in Reflux Slot of Pressure Tower T02        | OP      |
+| LIC05.OP | Level Adjustment in Atmospheric Tower T03                    | OP      |
+| LIC06.OP | Level Adjustment in Reflux Slot of Atmospheric Tower T03     | OP      |
+| LIC12.OP | Level Adjustment in Water Separator of Pre-distillation Tower T01 | OP      |
+| TI36.PV  | Conversion Gas Temperature                                   | DV      |
+| TI38.PV  | Conversion Gas Temperature                                   | DV      |
+| PI03.PV  | Conversion Gas Pressure                                      | DV      |
+| FI01.PV  | Feed Flow in Pre-distillation Tower T01                      | DV      |
+| TI02.PV  | Feed Temperature in Pre-distillation Tower T01               | DV      |
+| TI03.PV  | Top Temperature in Pre-distillation Tower T01                | DV      |
+| FI03.PV  | Reflux Flow in Pre-distillation Tower T01                    | DV      |
+| PI01.PV  | Top Pressure in Pre-distillation Tower T01                   | DV      |
+| PI02.PV  | Kettle Pressure in Pre-distillation Tower T01                | DV      |
+| TI05.PV  | Sensitive Plate Temperature in Pre-distillation Tower T01    | DV      |
+| TI12.PV  | Top Temperature in Pressure Tower T02                        | DV      |
+| PI06.PV  | Top Pressure in Pressure Tower T02                           | DV      |
+| TI16.PV  | Sensitive Plate Temperature on Tower Plate in Pressure Tower T02 | DV      |
+| PI05.PV  | Kettle Pressure in Pressure Tower T02                        | DV      |
+| PI08.PV  | Top Pressure in Atmospheric Tower T03                        | DV      |
+| TI25.PV  | Sensitive Plate Temperature on Tower Plate in Atmospheric Tower T03 | DV      |
+| PI41.PV  | Measurement of Top Pressure in Atmospheric Tower T03         | DV      |
+| TI21.PV  | Top Temperature in Atmospheric Tower T03                     | DV      |
+| FI12.PV  | Conversion Gas Flow                                          | DV      |
 
 * The ID consists of two parts, separated by a period. The first part represents the circuit and function 
 to which the sensor belongs, and the second part represents the category of the sensor. In the first part,
